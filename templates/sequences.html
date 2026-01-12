@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block title %}Sequences - SCADA{% endblock %}
+{% block nav_sequences %}active{% endblock %}
+
+{% block content %}
+<div class="content-grid" style="margin-top: 0.5rem; grid-template-columns: repeat(4, 1fr);">
+    <div class="card">
+        <div class="card-header">
+            <h3>PDC 1</h3>
+        </div>
+        <div class="card-body" 
+             hx-get="/api/sequences/pdc1" 
+             hx-trigger="load, every 2s"
+             hx-swap="innerHTML">
+            Chargement...
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header">
+            <h3>PDC 2</h3>
+        </div>
+        <div class="card-body" 
+             hx-get="/api/sequences/pdc2" 
+             hx-trigger="load, every 2s"
+             hx-swap="innerHTML">
+            Chargement...
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <h3>PDC 3</h3>
+        </div>
+        <div class="card-body" 
+             hx-get="/api/sequences/pdc3" 
+             hx-trigger="load, every 2s"
+             hx-swap="innerHTML">
+            Chargement...
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header">
+            <h3>PDC 4</h3>
+        </div>
+        <div class="card-body" 
+             hx-get="/api/sequences/pdc4" 
+             hx-trigger="load, every 2s"
+             hx-swap="innerHTML">
+            Chargement...
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,152 @@
+{% extends "base.html" %}
+
+{% block title %}Synoptique - SCADA{% endblock %}
+{% block nav_synoptique %}active{% endblock %}
+
+{% block content %}
+<div class="card">
+    <div class="card-body" style="background: #0a1628; padding: 2rem; border-radius: 8px;">
+        <object id="synoptiqueSvg" data="/static/svg/synoptique.svg" type="image/svg+xml" style="width: 100%; height: auto;"></object>
+    </div>
+</div>
+
+<script>
+let svg = null;
+
+document.getElementById('synoptiqueSvg').addEventListener('load', () => {
+    svg = document.getElementById('synoptiqueSvg').contentDocument;
+    updateData();
+    setInterval(updateData, 2000);
+});
+
+async function updateData() {
+    if (!svg) return;
+    
+    try {
+        const response = await fetch('/api/synoptique/data', { cache: "no-store" });
+        if (!response.ok) throw new Error('Network error');
+        const data = await response.json();
+        
+        for (const [id, values] of Object.entries(data)) {
+            
+            if (id.startsWith('M') && values.vdc !== undefined) {
+                const vdcEl = svg.getElementById(`${id}-vdc`);
+                if (vdcEl) vdcEl.textContent = values.vdc.toFixed(0);
+                
+                const idcEl = svg.getElementById(`${id}-idc`);
+                if (idcEl) idcEl.textContent = values.idc.toFixed(0);
+            }
+            
+            if (id.startsWith('G') && !id.startsWith('Gl')) {
+                const bgRect = svg.getElementById(`${id}-bg`);
+                if (bgRect && values.bg_color) {
+                    bgRect.setAttribute('fill', values.bg_color);
+                }
+                
+                const statusCircle = svg.getElementById(`${id}-status`);
+                if (statusCircle && values.status_color) {
+                    statusCircle.setAttribute('fill', values.status_color);
+                }
+            }
+            
+            if (id.startsWith('K') && !id.startsWith('KP') && values.is_closed !== undefined) {
+                const bg = svg.querySelector(`#${id} rect`);
+                if (bg) {
+                    bg.setAttribute('stroke', values.border_color);
+                    bg.setAttribute('stroke-width', values.is_closed ? '1.5' : '1');
+                }
+                
+                const contact = svg.getElementById(`${id}-contact`);
+                if (contact) {
+                    contact.setAttribute('x2', values.contact_x2);
+                    contact.setAttribute('y2', values.contact_y2);
+                    contact.setAttribute('stroke', values.contact_color);
+                }
+                
+                const fixed = svg.querySelector(`#${id} line:nth-of-type(2)`);
+                if (fixed) {
+                    fixed.setAttribute('stroke', values.contact_color);
+                }
+                
+                const led = svg.getElementById(`${id}-led`);
+                if (led) {
+                    led.setAttribute('fill', values.led_color);
+                    if (values.led_filter !== 'none') {
+                        led.setAttribute('filter', values.led_filter);
+                    } else {
+                        led.removeAttribute('filter');
+                    }
+                }
+            }
+            
+            if (id.startsWith('KP') && values.is_closed !== undefined) {
+                const bg = svg.getElementById(`${id}-bg`);
+                if (bg) {
+                    bg.setAttribute('stroke', values.border_color);
+                }
+                
+                const contact = svg.getElementById(`${id}-contact`);
+                if (contact) {
+                    contact.setAttribute('x2', values.contact_x2);
+                    contact.setAttribute('y2', values.contact_y2);
+                    contact.setAttribute('stroke', values.contact_color);
+                }
+                
+                const fixed = svg.getElementById(`${id}-fixed`);
+                if (fixed) {
+                    fixed.setAttribute('stroke', values.fixed_color);
+                }
+                
+                const coil = svg.getElementById(`${id}-coil`);
+                if (coil) {
+                    coil.setAttribute('stroke', values.coil_color);
+                }
+                
+                const coilTop = svg.getElementById(`${id}-coil-top`);
+                const coilBot = svg.getElementById(`${id}-coil-bot`);
+                if (coilTop) coilTop.setAttribute('stroke', values.coil_color);
+                if (coilBot) coilBot.setAttribute('stroke', values.coil_color);
+                
+                const led = svg.getElementById(`${id}-led`);
+                if (led) {
+                    led.setAttribute('fill', values.led_color);
+                    if (values.led_filter !== 'none') {
+                        led.setAttribute('filter', values.led_filter);
+                    } else {
+                        led.removeAttribute('filter');
+                    }
+                }
+            }
+            
+            if (id.startsWith('PDC') && values.color !== undefined) {
+                const colorRect = svg.getElementById(`${id}-color`);
+                if (colorRect) {
+                    colorRect.setAttribute('fill', values.color);
+                }
+                
+                const led1 = svg.getElementById(`${id}-led1`);
+                const led2 = svg.getElementById(`${id}-led2`);
+                if (led1) {
+                    led1.setAttribute('fill', values.color);
+                    if (values.glow_filter !== 'none') {
+                        led1.setAttribute('filter', values.glow_filter);
+                    } else {
+                        led1.removeAttribute('filter');
+                    }
+                }
+                if (led2) {
+                    led2.setAttribute('fill', values.color);
+                    if (values.glow_filter !== 'none') {
+                        led2.setAttribute('filter', values.glow_filter);
+                    } else {
+                        led2.removeAttribute('filter');
+                    }
+                }
+            }
+        }
+    } catch (error) {
+        console.error('Erreur mise à jour synoptique:', error);
+    }
+}
+</script>
+{% endblock %}

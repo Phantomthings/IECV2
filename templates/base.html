@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}SCADA - Supervision PDC{% endblock %}</title>
+    <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+    <link rel="icon" type="image/png" href="/static/assets/N.png">
+    <link rel="stylesheet" href="/static/css/scada.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="top-nav">
+            <div class="logo">
+                <img src="/static/assets/nidec.png" alt="Logo" style="height: 18px;">
+                <h1>IECharge V2</h1>
+                <span class="version">v1.0</span>
+            </div>
+            
+            <div class="nav-menu">
+                <a href="/" class="nav-item {% block nav_sequences %}{% endblock %}">
+                    <span>Séquences</span>
+                </a>
+                
+                <a href="/synoptique" class="nav-item {% block nav_synoptique %}{% endblock %}">
+                    <span>Synoptique</span>
+                </a>
+                
+                <a href="/exploitation" class="nav-item {% block nav_exploitation %}{% endblock %}">
+                    <span>Exploitation</span>
+                </a>
+                
+                <a href="/communication" class="nav-item {% block nav_communication %}{% endblock %}">
+                    <span>Communication</span>
+                </a>
+                
+                <a href="/system" class="nav-item {% block nav_system %}{% endblock %}">
+                    <span>Système</span>
+                </a>
+            </div>
+            
+            <div class="nav-status">
+                <div class="status-indicator">
+                    <span class="status-dot active"></span>
+                    <span>OPC UA</span>
+                </div>
+                <div class="timestamp" id="timestamp"></div>
+            </div>
+        </nav>
+
+        <main class="main-content">
+            {% block content %}{% endblock %}
+        </main>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

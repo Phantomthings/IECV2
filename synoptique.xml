@@ -1,0 +1,2996 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   class="synoptique-svg"
+   viewBox="0 0 1400 950"
+   preserveAspectRatio="xMidYMid meet"
+   version="1.1"
+   id="svg76"
+   sodipodi:docname="synoptique.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview120"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.1507232"
+     inkscape:cx="407.56976"
+     inkscape:cy="374.11254"
+     inkscape:window-width="2400"
+     inkscape:window-height="1261"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg76" />
+  <defs
+     id="defs16">
+    <!-- Fond principal gradient industriel -->
+    <linearGradient
+       id="bgGradient"
+       x1="0%"
+       y1="0%"
+       x2="0%"
+       y2="100%">
+      <stop
+         offset="0%"
+         stop-color="#0a1628"
+         id="stop1" />
+      <stop
+         offset="100%"
+         stop-color="#0d1f3c"
+         id="stop2" />
+    </linearGradient>
+    <!-- Style panneau équipement -->
+    <linearGradient
+       id="panelGrad"
+       x1="0%"
+       y1="0%"
+       x2="0%"
+       y2="100%">
+      <stop
+         offset="0%"
+         stop-color="#1a2d4a"
+         id="stop3" />
+      <stop
+         offset="100%"
+         stop-color="#0f1d32"
+         id="stop4" />
+    </linearGradient>
+    <!-- Bus bar gradient -->
+    <linearGradient
+       id="busGrad"
+       x1="0%"
+       y1="0%"
+       x2="0%"
+       y2="100%">
+      <stop
+         offset="0%"
+         stop-color="#f59e0b"
+         id="stop5" />
+      <stop
+         offset="50%"
+         stop-color="#d97706"
+         id="stop6" />
+      <stop
+         offset="100%"
+         stop-color="#b45309"
+         id="stop7" />
+    </linearGradient>
+    <!-- Ligne DC active -->
+    <linearGradient
+       id="dcLineActive"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="0%">
+      <stop
+         offset="0%"
+         stop-color="#06b6d4"
+         id="stop8" />
+      <stop
+         offset="50%"
+         stop-color="#22d3ee"
+         id="stop9" />
+      <stop
+         offset="100%"
+         stop-color="#06b6d4"
+         id="stop10" />
+    </linearGradient>
+    <!-- LED Glow effects -->
+    <filter
+       id="glowGreen"
+       x="-0.8"
+       y="-0.8"
+       width="2.6"
+       height="2.6">
+      <feGaussianBlur
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur10" />
+      <feMerge
+         id="feMerge11">
+        <feMergeNode
+           in="blur"
+           id="feMergeNode10" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode11" />
+      </feMerge>
+    </filter>
+    <filter
+       id="glowCyan"
+       x="-0.64166667"
+       y="-inf"
+       width="2.2833333"
+       height="inf">
+      <feGaussianBlur
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur11" />
+      <feMerge
+         id="feMerge13">
+        <feMergeNode
+           in="blur"
+           id="feMergeNode12" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode13" />
+      </feMerge>
+    </filter>
+    <filter
+       id="glowOrange"
+       x="-0.44166667"
+       y="-0.44166667"
+       width="1.8833333"
+       height="1.8833333">
+      <feGaussianBlur
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur13" />
+      <feMerge
+         id="feMerge15">
+        <feMergeNode
+           in="blur"
+           id="feMergeNode14" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode15" />
+      </feMerge>
+    </filter>
+    <!-- Panel shadow -->
+    <filter
+       id="panelShadow"
+       x="-0.009375"
+       y="-0.009375"
+       width="1.01875"
+       height="1.01875">
+      <feDropShadow
+         dx="0"
+         dy="2"
+         stdDeviation="4"
+         flood-color="#000000"
+         flood-opacity="0.5" />
+    </filter>
+    <!-- Contactor gradient -->
+    <linearGradient
+       id="contactorGrad"
+       x1="0%"
+       y1="0%"
+       x2="0%"
+       y2="100%">
+      <stop
+         offset="0%"
+         stop-color="#374151"
+         id="stop15" />
+      <stop
+         offset="100%"
+         stop-color="#1f2937"
+         id="stop16" />
+    </linearGradient>
+  </defs>
+  <!-- Fond principal -->
+  <rect
+     width="1400"
+     height="950"
+     fill="url(#bgGradient)"
+     id="rect16" />
+  <!-- Grille technique subtile -->
+  <defs
+     id="defs17">
+    <pattern
+       id="grid"
+       width="50"
+       height="50"
+       patternUnits="userSpaceOnUse">
+      <path
+         d="M 50 0 L 0 0 0 50"
+         fill="none"
+         stroke="#1e3a5f"
+         stroke-width="0.5"
+         opacity="0.3"
+         id="path16" />
+    </pattern>
+  </defs>
+  <rect
+     width="1400"
+     height="950"
+     fill="url(#grid)"
+     id="rect17" />
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- BUS DC SUPERIEUR (ligne verte → cyan industriel) -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- Bus supérieur horizontal -->
+  <line
+     x1="73"
+     y1="97"
+     x2="1358"
+     y2="97"
+     stroke="#06b6d4"
+     stroke-width="5"
+     filter="url(#glowCyan)"
+     id="line17" />
+  <line
+     x1="73"
+     y1="97"
+     x2="1358"
+     y2="97"
+     stroke="#22d3ee"
+     stroke-width="2"
+     id="line18" />
+  <!-- Lignes verticales du bus supérieur -->
+  <line
+     x1="74"
+     y1="95"
+     x2="74"
+     y2="458"
+     stroke="#06b6d4"
+     stroke-width="4"
+     id="line19" />
+  <line
+     x1="1356"
+     y1="97"
+     x2="1356"
+     y2="457"
+     stroke="#06b6d4"
+     stroke-width="4"
+     id="line20" />
+  <line
+     x1="684"
+     y1="87"
+     x2="684"
+     y2="97"
+     stroke="#06b6d4"
+     stroke-width="4"
+     id="line21" />
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- G8 (en haut au centre) -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <g
+     id="G8"
+     class="pole-groupe"
+     transform="translate(-15.6,-23.5)">
+    <rect
+       id="G8-bg"
+       x="625"
+       y="30"
+       width="150"
+       height="80"
+       fill="url(#panelGrad)"
+       stroke="#2563eb"
+       stroke-width="1.5"
+       rx="4"
+       filter="url(#panelShadow)" />
+    <rect
+       x="625"
+       y="30"
+       width="150"
+       height="3"
+       fill="#3b82f6"
+       rx="4"
+       id="rect21" />
+    <text
+       x="700"
+       y="48"
+       font-size="11px"
+       text-anchor="middle"
+       font-weight="bold"
+       fill="#60a5fa"
+       font-family="monospace"
+       id="text21">G8</text>
+    <circle
+       id="G8-status"
+       cx="760"
+       cy="45"
+       r="5"
+       fill="#525252"
+       stroke="#374151"
+       stroke-width="1" />
+    <!-- M13 -->
+    <g
+       id="M13">
+      <rect
+         x="630"
+         y="60"
+         width="70"
+         height="30"
+         fill="#0f172a"
+         stroke="#334155"
+         stroke-width="1"
+         rx="2"
+         id="rect22" />
+      <text
+         x="635"
+         y="72"
+         font-size="7px"
+         fill="#64748b"
+         font-family="monospace"
+         id="text22">VDC</text>
+      <rect
+         x="655"
+         y="62"
+         width="40"
+         height="12"
+         fill="#020617"
+         stroke="#1e293b"
+         stroke-width="0.5"
+         rx="1"
+         id="rect23" />
+      <text
+         id="M13-vdc"
+         x="675"
+         y="71"
+         font-size="8px"
+         text-anchor="middle"
+         fill="#22d3ee"
+         font-family="monospace">0</text>
+      <text
+         x="635"
+         y="84"
+         font-size="7px"
+         fill="#64748b"
+         font-family="monospace"
+         id="text23">IDC</text>
+      <rect
+         x="655"
+         y="74"
+         width="40"
+         height="12"
+         fill="#020617"
+         stroke="#1e293b"
+         stroke-width="0.5"
+         rx="1"
+         id="rect24" />
+      <text
+         id="M13-idc"
+         x="675"
+         y="83"
+         font-size="8px"
+         text-anchor="middle"
+         fill="#22d3ee"
+         font-family="monospace">0</text>
+    </g>
+    <text
+       x="665"
+       y="105"
+       font-size="8px"
+       text-anchor="middle"
+       fill="#94a3b8"
+       font-family="monospace"
+       id="text24">M1</text>
+    <!-- M14 -->
+    <g
+       id="M14">
+      <rect
+         x="705"
+         y="60"
+         width="70"
+         height="30"
+         fill="#0f172a"
+         stroke="#334155"
+         stroke-width="1"
+         rx="2"
+         id="rect25" />
+      <text
+         x="710"
+         y="72"
+         font-size="7px"
+         fill="#64748b"
+         font-family="monospace"
+         id="text25">VDC</text>
+      <rect
+         x="730"
+         y="62"
+         width="40"
+         height="12"
+         fill="#020617"
+         stroke="#1e293b"
+         stroke-width="0.5"
+         rx="1"
+         id="rect26" />
+      <text
+         id="M14-vdc"
+         x="750"
+         y="71"
+         font-size="8px"
+         text-anchor="middle"
+         fill="#22d3ee"
+         font-family="monospace">0</text>
+      <text
+         x="710"
+         y="84"
+         font-size="7px"
+         fill="#64748b"
+         font-family="monospace"
+         id="text26">IDC</text>
+      <rect
+         x="730"
+         y="74"
+         width="40"
+         height="12"
+         fill="#020617"
+         stroke="#1e293b"
+         stroke-width="0.5"
+         rx="1"
+         id="rect27" />
+      <text
+         id="M14-idc"
+         x="750"
+         y="83"
+         font-size="8px"
+         text-anchor="middle"
+         fill="#22d3ee"
+         font-family="monospace">0</text>
+    </g>
+    <text
+       x="740"
+       y="105"
+       font-size="8px"
+       text-anchor="middle"
+       fill="#94a3b8"
+       font-family="monospace"
+       id="text27">M2</text>
+  </g>
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- G1 (label G1 dans l'interface) -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <g
+     id="G7"
+     class="pole-groupe"
+     transform="translate(-896, 4)">
+    <rect
+       id="G7-bg"
+       x="1030"
+       y="240"
+       width="80"
+       height="80"
+       fill="url(#panelGrad)"
+       stroke="#2563eb"
+       stroke-width="1.5"
+       rx="4"
+       filter="url(#panelShadow)" />
+    <rect
+       x="1030"
+       y="240"
+       width="80"
+       height="3"
+       fill="#3b82f6"
+       rx="4"
+       id="rect28" />
+    <text
+       x="1070"
+       y="258"
+       font-size="11px"
+       text-anchor="middle"
+       font-weight="bold"
+       fill="#60a5fa"
+       font-family="monospace"
+       id="text28">G1</text>
+    <circle
+       id="G7-status"
+       cx="1095"
+       cy="255"
+       r="5"
+       fill="#525252"
+       stroke="#374151"
+       stroke-width="1" />
+    <g
+       id="M11">
+      <rect
+         x="1035"
+         y="270"
+         width="70"
+         height="30"
+         fill="#0f172a"
+         stroke="#334155"
+         stroke-width="1"
+         rx="2"
+         id="rect29" />
+      <text
+         x="1040"
+         y="282"
+         font-size="7px"
+         fill="#64748b"
+         font-family="monospace"
+         id="text29">VDC</text>
+      <rect
+         x="1060"
+         y="272"
+         width="40"
+         height="12"
+         fill="#020617"
+         stroke="#1e293b"
+         stroke-width="0.5"
+         rx="1"
+         id="rect30" />
+      <text
+         id="M11-vdc"
+         x="1080"
+         y="281"
+         font-size="8px"
+         text-anchor="middle"
+         fill="#22d3ee"
+         font-family="monospace">0</text>
+      <text
+         x="1040"
+         y="294"
+         font-size="7px"
+         fill="#64748b"
+         font-family="monospace"
+         id="text30">IDC</text>
+      <rect
+         x="1060"
+         y="284"
+         width="40"
+         height="12"
+         fill="#020617"
+         stroke="#1e293b"
+         stroke-width="0.5"
+         rx="1"
+         id="rect31" />
+      <text
+         id="M11-idc"
+         x="1080"
+         y="293"
+         font-size="8px"
+         text-anchor="middle"
+         fill="#22d3ee"
+         font-family="monospace">0</text>
+    </g>
+    <text
+       x="1071.4727"
+       y="311.77258"
+       font-size="8px"
+       text-anchor="middle"
+       fill="#94a3b8"
+       font-family="monospace"
+       id="text35-9">M3</text>
+  </g>
+  <!-- Ligne verticale G1 -->
+  <line
+     x1="175"
+     y1="322"
+     x2="175"
+     y2="454"
+     stroke="#475569"
+     stroke-width="2"
+     id="line31" />
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- G2 -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <g
+     id="G5"
+     class="pole-groupe"
+     transform="translate(38, 7)">
+    <rect
+       id="G5-bg"
+       x="350"
+       y="240"
+       width="80"
+       height="80"
+       fill="url(#panelGrad)"
+       stroke="#2563eb"
+       stroke-width="1.5"
+       rx="4"
+       filter="url(#panelShadow)" />
+    <rect
+       x="350"
+       y="240"
+       width="80"
+       height="3"
+       fill="#3b82f6"
+       rx="4"
+       id="rect32" />
+    <text
+       x="390"
+       y="258"
+       font-size="11px"
+       text-anchor="middle"
+       font-weight="bold"
+       fill="#60a5fa"
+       font-family="monospace"
+       id="text32">G2</text>
+    <circle
+       id="G5-status"
+       cx="415"
+       cy="255"
+       r="5"
+       fill="#525252"
+       stroke="#374151"
+       stroke-width="1" />
+    <g
+       id="M9">
+      <rect
+         x="355"
+         y="270"
+         width="70"
+         height="30"
+         fill="#0f172a"
+         stroke="#334155"
+         stroke-width="1"
+         rx="2"
+         id="rect33" />
+      <text
+         x="360"
+         y="282"
+         font-size="7px"
+         fill="#64748b"
+         font-family="monospace"
+         id="text33">VDC</text>
+      <rect
+         x="380"
+         y="272"
+         width="40"
+         height="12"
+         fill="#020617"
+         stroke="#1e293b"
+         stroke-width="0.5"
+         rx="1"
+         id="rect34" />
+      <text
+         id="M9-vdc"
+         x="400"
+         y="281"
+         font-size="8px"
+         text-anchor="middle"
+         fill="#22d3ee"
+         font-family="monospace">0</text>
+      <text
+         x="360"
+         y="294"
+         font-size="7px"
+         fill="#64748b"
+         font-family="monospace"
+         id="text34">IDC</text>
+      <rect
+         x="380"
+         y="284"
+         width="40"
+         height="12"
+         fill="#020617"
+         stroke="#1e293b"
+         stroke-width="0.5"
+         rx="1"
+         id="rect35" />
+      <text
+         id="M9-idc"
+         x="400"
+         y="293"
+         font-size="8px"
+         text-anchor="middle"
+         fill="#22d3ee"
+         font-family="monospace">0</text>
+    </g>
+    <text
+       x="390"
+       y="315"
+       font-size="8px"
+       text-anchor="middle"
+       fill="#94a3b8"
+       font-family="monospace"
+       id="text35">M6</text>
+  </g>
+  <line
+     x1="426"
+     y1="327"
+     x2="426"
+     y2="462"
+     stroke="#475569"
+     stroke-width="2"
+     id="line35" />
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- G3 -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <g
+     id="G6"
+     class="pole-groupe"
+     transform="translate(187, 10)">
+    <rect
+       id="G6-bg"
+       x="690"
+       y="240"
+       width="80"
+       height="80"
+       fill="url(#panelGrad)"
+       stroke="#2563eb"
+       stroke-width="1.5"
+       rx="4"
+       filter="url(#panelShadow)" />
+    <rect
+       x="690"
+       y="240"
+       width="80"
+       height="3"
+       fill="#3b82f6"
+       rx="4"
+       id="rect36" />
+    <text
+       x="730"
+       y="258"
+       font-size="11px"
+       text-anchor="middle"
+       font-weight="bold"
+       fill="#60a5fa"
+       font-family="monospace"
+       id="text36">G3</text>
+    <circle
+       id="G6-status"
+       cx="755"
+       cy="255"
+       r="5"
+       fill="#525252"
+       stroke="#374151"
+       stroke-width="1" />
+    <g
+       id="M10">
+      <rect
+         x="695"
+         y="270"
+         width="70"
+         height="30"
+         fill="#0f172a"
+         stroke="#334155"
+         stroke-width="1"
+         rx="2"
+         id="rect37" />
+      <text
+         x="700"
+         y="282"
+         font-size="7px"
+         fill="#64748b"
+         font-family="monospace"
+         id="text37">VDC</text>
+      <rect
+         x="720"
+         y="272"
+         width="40"
+         height="12"
+         fill="#020617"
+         stroke="#1e293b"
+         stroke-width="0.5"
+         rx="1"
+         id="rect38" />
+      <text
+         id="M10-vdc"
+         x="740"
+         y="281"
+         font-size="8px"
+         text-anchor="middle"
+         fill="#22d3ee"
+         font-family="monospace">0</text>
+      <text
+         x="700"
+         y="294"
+         font-size="7px"
+         fill="#64748b"
+         font-family="monospace"
+         id="text38">IDC</text>
+      <rect
+         x="720"
+         y="284"
+         width="40"
+         height="12"
+         fill="#020617"
+         stroke="#1e293b"
+         stroke-width="0.5"
+         rx="1"
+         id="rect39" />
+      <text
+         id="M10-idc"
+         x="740"
+         y="293"
+         font-size="8px"
+         text-anchor="middle"
+         fill="#22d3ee"
+         font-family="monospace">0</text>
+    </g>
+    <text
+       x="730"
+       y="315"
+       font-size="8px"
+       text-anchor="middle"
+       fill="#94a3b8"
+       font-family="monospace"
+       id="text39">M9</text>
+  </g>
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- G4 -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <g
+     id="G6-4"
+     class="pole-groupe"
+     transform="translate(473, 12)">
+    <rect
+       x="690"
+       y="240"
+       width="80"
+       height="80"
+       fill="url(#panelGrad)"
+       stroke="#2563eb"
+       stroke-width="1.5"
+       rx="4"
+       filter="url(#panelShadow)"
+       id="rect40" />
+    <rect
+       x="690"
+       y="240"
+       width="80"
+       height="3"
+       fill="#3b82f6"
+       rx="4"
+       id="rect41" />
+    <text
+       x="730"
+       y="258"
+       font-size="11px"
+       text-anchor="middle"
+       font-weight="bold"
+       fill="#60a5fa"
+       font-family="monospace"
+       id="text41">G4</text>
+    <circle
+       cx="755"
+       cy="255"
+       r="5"
+       fill="#525252"
+       stroke="#374151"
+       stroke-width="1"
+       id="circle41" />
+    <g
+       id="g45">
+      <rect
+         x="695"
+         y="270"
+         width="70"
+         height="30"
+         fill="#0f172a"
+         stroke="#334155"
+         stroke-width="1"
+         rx="2"
+         id="rect42" />
+      <text
+         x="700"
+         y="282"
+         font-size="7px"
+         fill="#64748b"
+         font-family="monospace"
+         id="text42">VDC</text>
+      <rect
+         x="720"
+         y="272"
+         width="40"
+         height="12"
+         fill="#020617"
+         stroke="#1e293b"
+         stroke-width="0.5"
+         rx="1"
+         id="rect43" />
+      <text
+         x="740"
+         y="281"
+         font-size="8px"
+         text-anchor="middle"
+         fill="#22d3ee"
+         font-family="monospace"
+         id="text43">0</text>
+      <text
+         x="700"
+         y="294"
+         font-size="7px"
+         fill="#64748b"
+         font-family="monospace"
+         id="text44">IDC</text>
+      <rect
+         x="720"
+         y="284"
+         width="40"
+         height="12"
+         fill="#020617"
+         stroke="#1e293b"
+         stroke-width="0.5"
+         rx="1"
+         id="rect44" />
+      <text
+         x="740"
+         y="293"
+         font-size="8px"
+         text-anchor="middle"
+         fill="#22d3ee"
+         font-family="monospace"
+         id="text45">0</text>
+    </g>
+    <text
+       x="730"
+       y="315"
+       font-size="8px"
+       text-anchor="middle"
+       fill="#94a3b8"
+       font-family="monospace"
+       id="text46">M12</text>
+  </g>
+  <line
+     x1="693"
+     y1="222"
+     x2="693"
+     y2="457"
+     stroke="#475569"
+     stroke-width="2"
+     id="line46" />
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- G5 (avec M4, M5) -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <g
+     id="G2"
+     class="pole-groupe"
+     transform="translate(-296, -95)">
+    <rect
+       id="G2-bg"
+       x="520"
+       y="240"
+       width="150"
+       height="80"
+       fill="url(#panelGrad)"
+       stroke="#2563eb"
+       stroke-width="1.5"
+       rx="4"
+       filter="url(#panelShadow)" />
+    <rect
+       x="520"
+       y="240"
+       width="150"
+       height="3"
+       fill="#3b82f6"
+       rx="4"
+       id="rect46" />
+    <text
+       x="595"
+       y="258"
+       font-size="11px"
+       text-anchor="middle"
+       font-weight="bold"
+       fill="#60a5fa"
+       font-family="monospace"
+       id="text47">G5</text>
+    <circle
+       id="G2-status"
+       cx="655"
+       cy="255"
+       r="5"
+       fill="#525252"
+       stroke="#374151"
+       stroke-width="1" />
+    <!-- M3 -->
+    <g
+       id="M3">
+      <rect
+         x="525"
+         y="270"
+         width="70"
+         height="30"
+         fill="#0f172a"
+         stroke="#334155"
+         stroke-width="1"
+         rx="2"
+         id="rect47" />
+      <text
+         x="530"
+         y="282"
+         font-size="7px"
+         fill="#64748b"
+         font-family="monospace"
+         id="text48">VDC</text>
+      <rect
+         x="550"
+         y="272"
+         width="40"
+         height="12"
+         fill="#020617"
+         stroke="#1e293b"
+         stroke-width="0.5"
+         rx="1"
+         id="rect48" />
+      <text
+         id="M3-vdc"
+         x="570"
+         y="281"
+         font-size="8px"
+         text-anchor="middle"
+         fill="#22d3ee"
+         font-family="monospace">0</text>
+      <text
+         x="530"
+         y="294"
+         font-size="7px"
+         fill="#64748b"
+         font-family="monospace"
+         id="text49">IDC</text>
+      <rect
+         x="550"
+         y="284"
+         width="40"
+         height="12"
+         fill="#020617"
+         stroke="#1e293b"
+         stroke-width="0.5"
+         rx="1"
+         id="rect49" />
+      <text
+         id="M3-idc"
+         x="570"
+         y="293"
+         font-size="8px"
+         text-anchor="middle"
+         fill="#22d3ee"
+         font-family="monospace">0</text>
+    </g>
+    <text
+       x="560"
+       y="315"
+       font-size="8px"
+       text-anchor="middle"
+       fill="#94a3b8"
+       font-family="monospace"
+       id="text50">M4</text>
+    <!-- M4 -->
+    <g
+       id="M4">
+      <rect
+         x="600"
+         y="270"
+         width="70"
+         height="30"
+         fill="#0f172a"
+         stroke="#334155"
+         stroke-width="1"
+         rx="2"
+         id="rect50" />
+      <text
+         x="605"
+         y="282"
+         font-size="7px"
+         fill="#64748b"
+         font-family="monospace"
+         id="text51">VDC</text>
+      <rect
+         x="625"
+         y="272"
+         width="40"
+         height="12"
+         fill="#020617"
+         stroke="#1e293b"
+         stroke-width="0.5"
+         rx="1"
+         id="rect51" />
+      <text
+         id="M4-vdc"
+         x="645"
+         y="281"
+         font-size="8px"
+         text-anchor="middle"
+         fill="#22d3ee"
+         font-family="monospace">0</text>
+      <text
+         x="605"
+         y="294"
+         font-size="7px"
+         fill="#64748b"
+         font-family="monospace"
+         id="text52">IDC</text>
+      <rect
+         x="625"
+         y="284"
+         width="40"
+         height="12"
+         fill="#020617"
+         stroke="#1e293b"
+         stroke-width="0.5"
+         rx="1"
+         id="rect52" />
+      <text
+         id="M4-idc"
+         x="645"
+         y="293"
+         font-size="8px"
+         text-anchor="middle"
+         fill="#22d3ee"
+         font-family="monospace">0</text>
+    </g>
+    <text
+       x="635"
+       y="315"
+       font-size="8px"
+       text-anchor="middle"
+       fill="#94a3b8"
+       font-family="monospace"
+       id="text53">M5</text>
+  </g>
+  <line
+     x1="299"
+     y1="226"
+     x2="299"
+     y2="454"
+     stroke="#475569"
+     stroke-width="2"
+     id="line53" />
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- G6 (avec M7, M8) -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <g
+     id="G3"
+     class="pole-groupe"
+     transform="translate(-243, -96)">
+    <rect
+       id="G3-bg"
+       x="860"
+       y="240"
+       width="150"
+       height="80"
+       fill="url(#panelGrad)"
+       stroke="#2563eb"
+       stroke-width="1.5"
+       rx="4"
+       filter="url(#panelShadow)" />
+    <rect
+       x="860"
+       y="240"
+       width="150"
+       height="3"
+       fill="#3b82f6"
+       rx="4"
+       id="rect53" />
+    <text
+       x="935"
+       y="258"
+       font-size="11px"
+       text-anchor="middle"
+       font-weight="bold"
+       fill="#60a5fa"
+       font-family="monospace"
+       id="text54">G6</text>
+    <circle
+       id="G3-status"
+       cx="995"
+       cy="255"
+       r="5"
+       fill="#525252"
+       stroke="#374151"
+       stroke-width="1" />
+    <!-- M5 -->
+    <g
+       id="M5">
+      <rect
+         x="865"
+         y="270"
+         width="70"
+         height="30"
+         fill="#0f172a"
+         stroke="#334155"
+         stroke-width="1"
+         rx="2"
+         id="rect54" />
+      <text
+         x="870"
+         y="282"
+         font-size="7px"
+         fill="#64748b"
+         font-family="monospace"
+         id="text55">VDC</text>
+      <rect
+         x="890"
+         y="272"
+         width="40"
+         height="12"
+         fill="#020617"
+         stroke="#1e293b"
+         stroke-width="0.5"
+         rx="1"
+         id="rect55" />
+      <text
+         id="M5-vdc"
+         x="910"
+         y="281"
+         font-size="8px"
+         text-anchor="middle"
+         fill="#22d3ee"
+         font-family="monospace">0</text>
+      <text
+         x="870"
+         y="294"
+         font-size="7px"
+         fill="#64748b"
+         font-family="monospace"
+         id="text56">IDC</text>
+      <rect
+         x="890"
+         y="284"
+         width="40"
+         height="12"
+         fill="#020617"
+         stroke="#1e293b"
+         stroke-width="0.5"
+         rx="1"
+         id="rect56" />
+      <text
+         id="M5-idc"
+         x="910"
+         y="293"
+         font-size="8px"
+         text-anchor="middle"
+         fill="#22d3ee"
+         font-family="monospace">0</text>
+    </g>
+    <text
+       x="900"
+       y="315"
+       font-size="8px"
+       text-anchor="middle"
+       fill="#94a3b8"
+       font-family="monospace"
+       id="text57">M7</text>
+    <!-- M6 -->
+    <g
+       id="M6">
+      <rect
+         x="940"
+         y="270"
+         width="70"
+         height="30"
+         fill="#0f172a"
+         stroke="#334155"
+         stroke-width="1"
+         rx="2"
+         id="rect57" />
+      <text
+         x="945"
+         y="282"
+         font-size="7px"
+         fill="#64748b"
+         font-family="monospace"
+         id="text58">VDC</text>
+      <rect
+         x="965"
+         y="272"
+         width="40"
+         height="12"
+         fill="#020617"
+         stroke="#1e293b"
+         stroke-width="0.5"
+         rx="1"
+         id="rect58" />
+      <text
+         id="M6-vdc"
+         x="985"
+         y="281"
+         font-size="8px"
+         text-anchor="middle"
+         fill="#22d3ee"
+         font-family="monospace">0</text>
+      <text
+         x="945"
+         y="294"
+         font-size="7px"
+         fill="#64748b"
+         font-family="monospace"
+         id="text59">IDC</text>
+      <rect
+         x="965"
+         y="284"
+         width="40"
+         height="12"
+         fill="#020617"
+         stroke="#1e293b"
+         stroke-width="0.5"
+         rx="1"
+         id="rect59" />
+      <text
+         id="M6-idc"
+         x="985"
+         y="293"
+         font-size="8px"
+         text-anchor="middle"
+         fill="#22d3ee"
+         font-family="monospace">0</text>
+    </g>
+    <text
+       x="975"
+       y="315"
+       font-size="8px"
+       text-anchor="middle"
+       fill="#94a3b8"
+       font-family="monospace"
+       id="text60">M8</text>
+  </g>
+  <line
+     x1="916"
+     y1="331"
+     x2="916"
+     y2="457"
+     stroke="#475569"
+     stroke-width="2"
+     id="line60" />
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- G7 (avec M10, M11) -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <g
+     id="G1"
+     class="pole-groupe"
+     transform="translate(799, -93)">
+    <rect
+       id="G1-bg"
+       x="180"
+       y="240"
+       width="150"
+       height="80"
+       fill="url(#panelGrad)"
+       stroke="#2563eb"
+       stroke-width="1.5"
+       rx="4"
+       filter="url(#panelShadow)" />
+    <rect
+       x="180"
+       y="240"
+       width="150"
+       height="3"
+       fill="#3b82f6"
+       rx="4"
+       id="rect60" />
+    <text
+       x="255"
+       y="258"
+       font-size="11px"
+       text-anchor="middle"
+       font-weight="bold"
+       fill="#60a5fa"
+       font-family="monospace"
+       id="text61">G7</text>
+    <circle
+       id="G1-status"
+       cx="315"
+       cy="255"
+       r="5"
+       fill="#525252"
+       stroke="#374151"
+       stroke-width="1" />
+    <!-- M1 -->
+    <g
+       id="M1">
+      <rect
+         x="185"
+         y="270"
+         width="70"
+         height="30"
+         fill="#0f172a"
+         stroke="#334155"
+         stroke-width="1"
+         rx="2"
+         id="rect61" />
+      <text
+         x="190"
+         y="282"
+         font-size="7px"
+         fill="#64748b"
+         font-family="monospace"
+         id="text62">VDC</text>
+      <rect
+         x="210"
+         y="272"
+         width="40"
+         height="12"
+         fill="#020617"
+         stroke="#1e293b"
+         stroke-width="0.5"
+         rx="1"
+         id="rect62" />
+      <text
+         id="M1-vdc"
+         x="230"
+         y="281"
+         font-size="8px"
+         text-anchor="middle"
+         fill="#22d3ee"
+         font-family="monospace">0</text>
+      <text
+         x="190"
+         y="294"
+         font-size="7px"
+         fill="#64748b"
+         font-family="monospace"
+         id="text63">IDC</text>
+      <rect
+         x="210"
+         y="284"
+         width="40"
+         height="12"
+         fill="#020617"
+         stroke="#1e293b"
+         stroke-width="0.5"
+         rx="1"
+         id="rect63" />
+      <text
+         id="M1-idc"
+         x="230"
+         y="293"
+         font-size="8px"
+         text-anchor="middle"
+         fill="#22d3ee"
+         font-family="monospace">0</text>
+    </g>
+    <text
+       x="220"
+       y="315"
+       font-size="8px"
+       text-anchor="middle"
+       fill="#94a3b8"
+       font-family="monospace"
+       id="text64">M10</text>
+    <!-- M2 -->
+    <g
+       id="M2">
+      <rect
+         x="260"
+         y="270"
+         width="70"
+         height="30"
+         fill="#0f172a"
+         stroke="#334155"
+         stroke-width="1"
+         rx="2"
+         id="rect64" />
+      <text
+         x="265"
+         y="282"
+         font-size="7px"
+         fill="#64748b"
+         font-family="monospace"
+         id="text65">VDC</text>
+      <rect
+         x="285"
+         y="272"
+         width="40"
+         height="12"
+         fill="#020617"
+         stroke="#1e293b"
+         stroke-width="0.5"
+         rx="1"
+         id="rect65" />
+      <text
+         id="M2-vdc"
+         x="305"
+         y="281"
+         font-size="8px"
+         text-anchor="middle"
+         fill="#22d3ee"
+         font-family="monospace">0</text>
+      <text
+         x="265"
+         y="294"
+         font-size="7px"
+         fill="#64748b"
+         font-family="monospace"
+         id="text66">IDC</text>
+      <rect
+         x="285"
+         y="284"
+         width="40"
+         height="12"
+         fill="#020617"
+         stroke="#1e293b"
+         stroke-width="0.5"
+         rx="1"
+         id="rect66" />
+      <text
+         id="M2-idc"
+         x="305"
+         y="293"
+         font-size="8px"
+         text-anchor="middle"
+         fill="#22d3ee"
+         font-family="monospace">0</text>
+    </g>
+    <text
+       x="295"
+       y="315"
+       font-size="8px"
+       text-anchor="middle"
+       fill="#94a3b8"
+       font-family="monospace"
+       id="text67">M11</text>
+  </g>
+  <line
+     x1="1054"
+     y1="228"
+     x2="1054"
+     y2="457"
+     stroke="#475569"
+     stroke-width="2"
+     id="line67" />
+  <line
+     x1="1203"
+     y1="332"
+     x2="1203"
+     y2="456"
+     stroke="#475569"
+     stroke-width="2"
+     id="line68" />
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- BUS PRINCIPAL DC -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <rect
+     x="72"
+     y="452"
+     width="1286"
+     height="10"
+     fill="url(#busGrad)"
+     rx="2"
+     id="rect68" />
+  <line
+     x1="72"
+     y1="452"
+     x2="1358"
+     y2="452"
+     stroke="#fbbf24"
+     stroke-width="1"
+     opacity="0.5"
+     id="line69" />
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- CONTACTEURS K1-K8 (symboles électriques) -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- K1 - Contact ouvert -->
+  <g
+     id="K1"
+     transform="translate(122, 432)">
+    <!-- Fond du contacteur -->
+    <rect
+       x="-20"
+       y="-5"
+       width="40"
+       height="50"
+       fill="#0f172a"
+       stroke="#334155"
+       stroke-width="1"
+       rx="3"
+       id="rect69" />
+    <!-- Bornes -->
+    <circle
+       cx="0"
+       cy="0"
+       r="4"
+       fill="#475569"
+       stroke="#22d3ee"
+       stroke-width="1.5"
+       id="circle69" />
+    <circle
+       cx="0"
+       cy="40"
+       r="4"
+       fill="#475569"
+       stroke="#22d3ee"
+       stroke-width="1.5"
+       id="circle70" />
+    <!-- Contact mobile (ouvert) -->
+    <line
+       id="K1-contact"
+       x1="0"
+       y1="4"
+       x2="12"
+       y2="20"
+       stroke="#f59e0b"
+       stroke-width="3"
+       stroke-linecap="round" />
+    <!-- Contact fixe -->
+    <line
+       x1="0"
+       y1="36"
+       x2="0"
+       y2="28"
+       stroke="#f59e0b"
+       stroke-width="3"
+       stroke-linecap="round"
+       id="line70" />
+    <!-- LED status -->
+    <circle
+       id="K1-led"
+       cx="12"
+       cy="4"
+       r="3"
+       fill="#525252" />
+    <!-- Label -->
+    <text
+       x="0"
+       y="55"
+       font-size="9px"
+       text-anchor="middle"
+       fill="#94a3b8"
+       font-family="monospace"
+       id="text70">K1</text>
+  </g>
+  <!-- K2 -->
+  <g
+     id="K2"
+     transform="translate(224, 432)">
+    <rect
+       x="-20"
+       y="-5"
+       width="40"
+       height="50"
+       fill="#0f172a"
+       stroke="#334155"
+       stroke-width="1"
+       rx="3"
+       id="rect70" />
+    <circle
+       cx="0"
+       cy="0"
+       r="4"
+       fill="#475569"
+       stroke="#22d3ee"
+       stroke-width="1.5"
+       id="circle71" />
+    <circle
+       cx="0"
+       cy="40"
+       r="4"
+       fill="#475569"
+       stroke="#22d3ee"
+       stroke-width="1.5"
+       id="circle72" />
+    <line
+       id="K2-contact"
+       x1="0"
+       y1="4"
+       x2="12"
+       y2="20"
+       stroke="#f59e0b"
+       stroke-width="3"
+       stroke-linecap="round" />
+    <line
+       x1="0"
+       y1="36"
+       x2="0"
+       y2="28"
+       stroke="#f59e0b"
+       stroke-width="3"
+       stroke-linecap="round"
+       id="line72" />
+    <circle
+       id="K2-led"
+       cx="12"
+       cy="4"
+       r="3"
+       fill="#525252" />
+    <text
+       x="0"
+       y="55"
+       font-size="9px"
+       text-anchor="middle"
+       fill="#94a3b8"
+       font-family="monospace"
+       id="text72">K2</text>
+  </g>
+  <!-- K3 -->
+  <g
+     id="K3"
+     transform="translate(354, 432)">
+    <rect
+       x="-20"
+       y="-5"
+       width="40"
+       height="50"
+       fill="#0f172a"
+       stroke="#334155"
+       stroke-width="1"
+       rx="3"
+       id="rect72" />
+    <circle
+       cx="0"
+       cy="0"
+       r="4"
+       fill="#475569"
+       stroke="#22d3ee"
+       stroke-width="1.5"
+       id="circle73" />
+    <circle
+       cx="0"
+       cy="40"
+       r="4"
+       fill="#475569"
+       stroke="#22d3ee"
+       stroke-width="1.5"
+       id="circle74" />
+    <line
+       id="K3-contact"
+       x1="0"
+       y1="4"
+       x2="12"
+       y2="20"
+       stroke="#f59e0b"
+       stroke-width="3"
+       stroke-linecap="round" />
+    <line
+       x1="0"
+       y1="36"
+       x2="0"
+       y2="28"
+       stroke="#f59e0b"
+       stroke-width="3"
+       stroke-linecap="round"
+       id="line74" />
+    <circle
+       id="K3-led"
+       cx="12"
+       cy="4"
+       r="3"
+       fill="#525252" />
+    <text
+       x="0"
+       y="55"
+       font-size="9px"
+       text-anchor="middle"
+       fill="#94a3b8"
+       font-family="monospace"
+       id="text74">K3</text>
+  </g>
+  <!-- K4 - Exemple fermé (vert) -->
+  <g
+     id="K4"
+     transform="translate(524, 432)">
+    <rect
+       x="-20"
+       y="-5"
+       width="40"
+       height="50"
+       fill="#0f172a"
+       stroke="#22c55e"
+       stroke-width="1.5"
+       rx="3"
+       id="rect74" />
+    <circle
+       cx="0"
+       cy="0"
+       r="4"
+       fill="#475569"
+       stroke="#22d3ee"
+       stroke-width="1.5"
+       id="circle75" />
+    <circle
+       cx="0"
+       cy="40"
+       r="4"
+       fill="#475569"
+       stroke="#22d3ee"
+       stroke-width="1.5"
+       id="circle76" />
+    <!-- Contact fermé (vertical) -->
+    <line
+       id="K4-contact"
+       x1="0"
+       y1="4"
+       x2="0"
+       y2="24"
+       stroke="#22c55e"
+       stroke-width="3"
+       stroke-linecap="round" />
+    <line
+       x1="0"
+       y1="36"
+       x2="0"
+       y2="28"
+       stroke="#22c55e"
+       stroke-width="3"
+       stroke-linecap="round"
+       id="line76" />
+    <circle
+       id="K4-led"
+       cx="12"
+       cy="4"
+       r="3"
+       fill="#22c55e"
+       filter="url(#glowGreen)" />
+    <text
+       x="0"
+       y="55"
+       font-size="9px"
+       text-anchor="middle"
+       fill="#94a3b8"
+       font-family="monospace"
+       id="text76">K4</text>
+  </g>
+  <!-- K5 -->
+  <g
+     id="K5"
+     transform="translate(834, 432)">
+    <rect
+       x="-20"
+       y="-5"
+       width="40"
+       height="50"
+       fill="#0f172a"
+       stroke="#334155"
+       stroke-width="1"
+       rx="3"
+       id="rect76" />
+    <circle
+       cx="0"
+       cy="0"
+       r="4"
+       fill="#475569"
+       stroke="#22d3ee"
+       stroke-width="1.5"
+       id="circle77" />
+    <circle
+       cx="0"
+       cy="40"
+       r="4"
+       fill="#475569"
+       stroke="#22d3ee"
+       stroke-width="1.5"
+       id="circle78" />
+    <line
+       id="K5-contact"
+       x1="0"
+       y1="4"
+       x2="12"
+       y2="20"
+       stroke="#f59e0b"
+       stroke-width="3"
+       stroke-linecap="round" />
+    <line
+       x1="0"
+       y1="36"
+       x2="0"
+       y2="28"
+       stroke="#f59e0b"
+       stroke-width="3"
+       stroke-linecap="round"
+       id="line78" />
+    <circle
+       id="K5-led"
+       cx="12"
+       cy="4"
+       r="3"
+       fill="#525252" />
+    <text
+       x="0"
+       y="55"
+       font-size="9px"
+       text-anchor="middle"
+       fill="#94a3b8"
+       font-family="monospace"
+       id="text78">K5</text>
+  </g>
+  <!-- K6 - Exemple fermé -->
+  <g
+     id="K6"
+     transform="translate(1004, 432)">
+    <rect
+       x="-20"
+       y="-5"
+       width="40"
+       height="50"
+       fill="#0f172a"
+       stroke="#22c55e"
+       stroke-width="1.5"
+       rx="3"
+       id="rect78" />
+    <circle
+       cx="0"
+       cy="0"
+       r="4"
+       fill="#475569"
+       stroke="#22d3ee"
+       stroke-width="1.5"
+       id="circle79" />
+    <circle
+       cx="0"
+       cy="40"
+       r="4"
+       fill="#475569"
+       stroke="#22d3ee"
+       stroke-width="1.5"
+       id="circle80" />
+    <line
+       id="K6-contact"
+       x1="0"
+       y1="4"
+       x2="0"
+       y2="24"
+       stroke="#22c55e"
+       stroke-width="3"
+       stroke-linecap="round" />
+    <line
+       x1="0"
+       y1="36"
+       x2="0"
+       y2="28"
+       stroke="#22c55e"
+       stroke-width="3"
+       stroke-linecap="round"
+       id="line80" />
+    <circle
+       id="K6-led"
+       cx="12"
+       cy="4"
+       r="3"
+       fill="#22c55e"
+       filter="url(#glowGreen)" />
+    <text
+       x="0"
+       y="55"
+       font-size="9px"
+       text-anchor="middle"
+       fill="#94a3b8"
+       font-family="monospace"
+       id="text80">K6</text>
+  </g>
+  <!-- K7 -->
+  <g
+     id="K7"
+     transform="translate(1134, 432)">
+    <rect
+       x="-20"
+       y="-5"
+       width="40"
+       height="50"
+       fill="#0f172a"
+       stroke="#334155"
+       stroke-width="1"
+       rx="3"
+       id="rect80" />
+    <circle
+       cx="0"
+       cy="0"
+       r="4"
+       fill="#475569"
+       stroke="#22d3ee"
+       stroke-width="1.5"
+       id="circle81" />
+    <circle
+       cx="0"
+       cy="40"
+       r="4"
+       fill="#475569"
+       stroke="#22d3ee"
+       stroke-width="1.5"
+       id="circle82" />
+    <line
+       id="K7-contact"
+       x1="0"
+       y1="4"
+       x2="12"
+       y2="20"
+       stroke="#f59e0b"
+       stroke-width="3"
+       stroke-linecap="round" />
+    <line
+       x1="0"
+       y1="36"
+       x2="0"
+       y2="28"
+       stroke="#f59e0b"
+       stroke-width="3"
+       stroke-linecap="round"
+       id="line82" />
+    <circle
+       id="K7-led"
+       cx="12"
+       cy="4"
+       r="3"
+       fill="#525252" />
+    <text
+       x="0"
+       y="55"
+       font-size="9px"
+       text-anchor="middle"
+       fill="#94a3b8"
+       font-family="monospace"
+       id="text82">K7</text>
+  </g>
+  <!-- K8 -->
+  <g
+     id="K8"
+     transform="translate(1305, 432)">
+    <rect
+       x="-20"
+       y="-5"
+       width="40"
+       height="50"
+       fill="#0f172a"
+       stroke="#334155"
+       stroke-width="1"
+       rx="3"
+       id="rect82" />
+    <circle
+       cx="0"
+       cy="0"
+       r="4"
+       fill="#475569"
+       stroke="#22d3ee"
+       stroke-width="1.5"
+       id="circle83" />
+    <circle
+       cx="0"
+       cy="40"
+       r="4"
+       fill="#475569"
+       stroke="#22d3ee"
+       stroke-width="1.5"
+       id="circle84" />
+    <line
+       id="K8-contact"
+       x1="0"
+       y1="4"
+       x2="12"
+       y2="20"
+       stroke="#f59e0b"
+       stroke-width="3"
+       stroke-linecap="round" />
+    <line
+       x1="0"
+       y1="36"
+       x2="0"
+       y2="28"
+       stroke="#f59e0b"
+       stroke-width="3"
+       stroke-linecap="round"
+       id="line84" />
+    <circle
+       id="K8-led"
+       cx="12"
+       cy="4"
+       r="3"
+       fill="#525252" />
+    <text
+       x="0"
+       y="55"
+       font-size="9px"
+       text-anchor="middle"
+       fill="#94a3b8"
+       font-family="monospace"
+       id="text84">K8</text>
+  </g>
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- G9 (en bas gauche) -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <g
+     id="G9"
+     class="pole-groupe"
+     transform="translate(79, -23)">
+    <rect
+       id="G9-bg"
+       x="180"
+       y="620"
+       width="80"
+       height="80"
+       fill="url(#panelGrad)"
+       stroke="#2563eb"
+       stroke-width="1.5"
+       rx="4"
+       filter="url(#panelShadow)" />
+    <rect
+       x="180"
+       y="620"
+       width="80"
+       height="3"
+       fill="#3b82f6"
+       rx="4"
+       id="rect84" />
+    <text
+       x="220"
+       y="638"
+       font-size="11px"
+       text-anchor="middle"
+       font-weight="bold"
+       fill="#60a5fa"
+       font-family="monospace"
+       id="text85">G9</text>
+    <circle
+       id="G9-status"
+       cx="245"
+       cy="635"
+       r="5"
+       fill="#525252"
+       stroke="#374151"
+       stroke-width="1" />
+    <g
+       id="M12">
+      <rect
+         x="185"
+         y="650"
+         width="70"
+         height="30"
+         fill="#0f172a"
+         stroke="#334155"
+         stroke-width="1"
+         rx="2"
+         id="rect85" />
+      <text
+         x="190"
+         y="662"
+         font-size="7px"
+         fill="#64748b"
+         font-family="monospace"
+         id="text86">VDC</text>
+      <rect
+         x="210"
+         y="652"
+         width="40"
+         height="12"
+         fill="#020617"
+         stroke="#1e293b"
+         stroke-width="0.5"
+         rx="1"
+         id="rect86" />
+      <text
+         id="M12-vdc"
+         x="230"
+         y="661"
+         font-size="8px"
+         text-anchor="middle"
+         fill="#22d3ee"
+         font-family="monospace">0</text>
+      <text
+         x="190"
+         y="674"
+         font-size="7px"
+         fill="#64748b"
+         font-family="monospace"
+         id="text87">IDC</text>
+      <rect
+         x="210"
+         y="664"
+         width="40"
+         height="12"
+         fill="#020617"
+         stroke="#1e293b"
+         stroke-width="0.5"
+         rx="1"
+         id="rect87" />
+      <text
+         id="M12-idc"
+         x="230"
+         y="673"
+         font-size="8px"
+         text-anchor="middle"
+         fill="#22d3ee"
+         font-family="monospace">0</text>
+    </g>
+    <text
+       x="220"
+       y="695"
+       font-size="8px"
+       text-anchor="middle"
+       fill="#94a3b8"
+       font-family="monospace"
+       id="text88">M13</text>
+  </g>
+  <!-- Lignes G9 -->
+  <line
+     x1="299"
+     y1="677"
+     x2="299"
+     y2="757"
+     stroke="#475569"
+     stroke-width="2"
+     id="line88" />
+  <line
+     x1="176"
+     y1="757"
+     x2="403"
+     y2="757"
+     stroke="#475569"
+     stroke-width="3"
+     id="line89" />
+  <!-- K9 -->
+  <g
+     id="K9"
+     transform="translate(241, 732)">
+    <rect
+       x="-20"
+       y="-5"
+       width="40"
+       height="50"
+       fill="#0f172a"
+       stroke="#334155"
+       stroke-width="1"
+       rx="3"
+       id="rect89" />
+    <circle
+       cx="0"
+       cy="0"
+       r="4"
+       fill="#475569"
+       stroke="#22d3ee"
+       stroke-width="1.5"
+       id="circle89" />
+    <circle
+       cx="0"
+       cy="40"
+       r="4"
+       fill="#475569"
+       stroke="#22d3ee"
+       stroke-width="1.5"
+       id="circle90" />
+    <line
+       id="K9-contact"
+       x1="0"
+       y1="4"
+       x2="12"
+       y2="20"
+       stroke="#f59e0b"
+       stroke-width="3"
+       stroke-linecap="round" />
+    <line
+       x1="0"
+       y1="36"
+       x2="0"
+       y2="28"
+       stroke="#f59e0b"
+       stroke-width="3"
+       stroke-linecap="round"
+       id="line90" />
+    <circle
+       id="K9-led"
+       cx="12"
+       cy="4"
+       r="3"
+       fill="#525252" />
+    <text
+       x="0"
+       y="55"
+       font-size="9px"
+       text-anchor="middle"
+       fill="#94a3b8"
+       font-family="monospace"
+       id="text90">K9</text>
+  </g>
+  <!-- K10 -->
+  <g
+     id="K10"
+     transform="translate(354, 732)">
+    <rect
+       x="-20"
+       y="-5"
+       width="40"
+       height="50"
+       fill="#0f172a"
+       stroke="#334155"
+       stroke-width="1"
+       rx="3"
+       id="rect90" />
+    <circle
+       cx="0"
+       cy="0"
+       r="4"
+       fill="#475569"
+       stroke="#22d3ee"
+       stroke-width="1.5"
+       id="circle91" />
+    <circle
+       cx="0"
+       cy="40"
+       r="4"
+       fill="#475569"
+       stroke="#22d3ee"
+       stroke-width="1.5"
+       id="circle92" />
+    <line
+       id="K10-contact"
+       x1="0"
+       y1="4"
+       x2="12"
+       y2="20"
+       stroke="#f59e0b"
+       stroke-width="3"
+       stroke-linecap="round" />
+    <line
+       x1="0"
+       y1="36"
+       x2="0"
+       y2="28"
+       stroke="#f59e0b"
+       stroke-width="3"
+       stroke-linecap="round"
+       id="line92" />
+    <circle
+       id="K10-led"
+       cx="12"
+       cy="4"
+       r="3"
+       fill="#525252" />
+    <text
+       x="0"
+       y="55"
+       font-size="9px"
+       text-anchor="middle"
+       fill="#94a3b8"
+       font-family="monospace"
+       id="text92">K10</text>
+  </g>
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- G10 (en bas droite) -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <g
+     id="G10"
+     class="pole-groupe"
+     transform="translate(44, -23)">
+    <rect
+       id="G10-bg"
+       x="1042"
+       y="620"
+       width="80"
+       height="80"
+       fill="url(#panelGrad)"
+       stroke="#2563eb"
+       stroke-width="1.5"
+       rx="4"
+       filter="url(#panelShadow)" />
+    <rect
+       x="1042"
+       y="620"
+       width="80"
+       height="3"
+       fill="#3b82f6"
+       rx="4"
+       id="rect92" />
+    <text
+       x="1082"
+       y="638"
+       font-size="11px"
+       text-anchor="middle"
+       font-weight="bold"
+       fill="#60a5fa"
+       font-family="monospace"
+       id="text93">G10</text>
+    <circle
+       id="G10-status"
+       cx="1107"
+       cy="635"
+       r="5"
+       fill="#525252"
+       stroke="#374151"
+       stroke-width="1" />
+    <g
+       id="g97">
+      <rect
+         x="1048"
+         y="650"
+         width="70"
+         height="30"
+         fill="#0f172a"
+         stroke="#334155"
+         stroke-width="1"
+         rx="2"
+         id="rect93" />
+      <text
+         x="1053"
+         y="662"
+         font-size="7px"
+         fill="#64748b"
+         font-family="monospace"
+         id="text94">VDC</text>
+      <rect
+         x="1073"
+         y="652"
+         width="40"
+         height="12"
+         fill="#020617"
+         stroke="#1e293b"
+         stroke-width="0.5"
+         rx="1"
+         id="rect94" />
+      <text
+         x="1093"
+         y="661"
+         font-size="8px"
+         text-anchor="middle"
+         fill="#22d3ee"
+         font-family="monospace"
+         id="text95">0</text>
+      <text
+         x="1053"
+         y="674"
+         font-size="7px"
+         fill="#64748b"
+         font-family="monospace"
+         id="text96">IDC</text>
+      <rect
+         x="1073"
+         y="664"
+         width="40"
+         height="12"
+         fill="#020617"
+         stroke="#1e293b"
+         stroke-width="0.5"
+         rx="1"
+         id="rect96" />
+      <text
+         x="1093"
+         y="673"
+         font-size="8px"
+         text-anchor="middle"
+         fill="#22d3ee"
+         font-family="monospace"
+         id="text97">0</text>
+    </g>
+    <text
+       x="1082"
+       y="693"
+       font-size="8px"
+       text-anchor="middle"
+       fill="#94a3b8"
+       font-family="monospace"
+       id="text98">M14</text>
+  </g>
+  <!-- Lignes G10 -->
+  <line
+     x1="1126"
+     y1="677"
+     x2="1126"
+     y2="757"
+     stroke="#475569"
+     stroke-width="2"
+     id="line98" />
+  <line
+     x1="919"
+     y1="757"
+     x2="1258"
+     y2="757"
+     stroke="#475569"
+     stroke-width="3"
+     id="line99" />
+  <!-- K11 -->
+  <g
+     id="K11"
+     transform="translate(1052, 732)">
+    <rect
+       x="-20"
+       y="-5"
+       width="40"
+       height="50"
+       fill="#0f172a"
+       stroke="#334155"
+       stroke-width="1"
+       rx="3"
+       id="rect99" />
+    <circle
+       cx="0"
+       cy="0"
+       r="4"
+       fill="#475569"
+       stroke="#22d3ee"
+       stroke-width="1.5"
+       id="circle99" />
+    <circle
+       cx="0"
+       cy="40"
+       r="4"
+       fill="#475569"
+       stroke="#22d3ee"
+       stroke-width="1.5"
+       id="circle100" />
+    <line
+       id="K11-contact"
+       x1="0"
+       y1="4"
+       x2="12"
+       y2="20"
+       stroke="#f59e0b"
+       stroke-width="3"
+       stroke-linecap="round" />
+    <line
+       x1="0"
+       y1="36"
+       x2="0"
+       y2="28"
+       stroke="#f59e0b"
+       stroke-width="3"
+       stroke-linecap="round"
+       id="line100" />
+    <circle
+       id="K11-led"
+       cx="12"
+       cy="4"
+       r="3"
+       fill="#525252" />
+    <text
+       x="0"
+       y="55"
+       font-size="9px"
+       text-anchor="middle"
+       fill="#94a3b8"
+       font-family="monospace"
+       id="text100">K11</text>
+  </g>
+  <!-- K12 - Exemple fermé -->
+  <g
+     id="K12"
+     transform="translate(1187, 732)">
+    <rect
+       x="-20"
+       y="-5"
+       width="40"
+       height="50"
+       fill="#0f172a"
+       stroke="#22c55e"
+       stroke-width="1.5"
+       rx="3"
+       id="rect100" />
+    <circle
+       cx="0"
+       cy="0"
+       r="4"
+       fill="#475569"
+       stroke="#22d3ee"
+       stroke-width="1.5"
+       id="circle101" />
+    <circle
+       cx="0"
+       cy="40"
+       r="4"
+       fill="#475569"
+       stroke="#22d3ee"
+       stroke-width="1.5"
+       id="circle102" />
+    <line
+       id="K12-contact"
+       x1="0"
+       y1="4"
+       x2="0"
+       y2="24"
+       stroke="#22c55e"
+       stroke-width="3"
+       stroke-linecap="round" />
+    <line
+       x1="0"
+       y1="36"
+       x2="0"
+       y2="28"
+       stroke="#22c55e"
+       stroke-width="3"
+       stroke-linecap="round"
+       id="line102" />
+    <circle
+       id="K12-led"
+       cx="12"
+       cy="4"
+       r="3"
+       fill="#22c55e"
+       filter="url(#glowGreen)" />
+    <text
+       x="0"
+       y="55"
+       font-size="9px"
+       text-anchor="middle"
+       fill="#94a3b8"
+       font-family="monospace"
+       id="text102">K12</text>
+  </g>
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- COLONNES VERTICALES VERS PDC -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <line
+     x1="174"
+     y1="457"
+     x2="174"
+     y2="857"
+     stroke="#475569"
+     stroke-width="3"
+     id="line103" />
+  <line
+     x1="426"
+     y1="457"
+     x2="426"
+     y2="857"
+     stroke="#475569"
+     stroke-width="3"
+     id="line104" />
+  <line
+     x1="916"
+     y1="457"
+     x2="916"
+     y2="857"
+     stroke="#475569"
+     stroke-width="3"
+     id="line105" />
+  <line
+     x1="1257"
+     y1="457"
+     x2="1257"
+     y2="867"
+     stroke="#475569"
+     stroke-width="3"
+     id="line106" />
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- KP (Connecteurs de puissance) -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- KP1 -->
+  <rect
+     x="149"
+     y="747"
+     width="50"
+     height="20"
+     fill="#1f2937"
+     stroke="#4b5563"
+     rx="3"
+     id="rect106" />
+  <text
+     x="174"
+     y="760"
+     font-size="8px"
+     text-anchor="middle"
+     fill="#d1d5db"
+     font-family="monospace"
+     id="text106">KP1</text>
+  <!-- KP2 -->
+  <rect
+     x="401"
+     y="747"
+     width="50"
+     height="20"
+     fill="#1f2937"
+     stroke="#4b5563"
+     rx="3"
+     id="rect107" />
+  <text
+     x="426"
+     y="760"
+     font-size="8px"
+     text-anchor="middle"
+     fill="#d1d5db"
+     font-family="monospace"
+     id="text107">KP2</text>
+  <!-- KP3 -->
+  <rect
+     x="891"
+     y="747"
+     width="50"
+     height="20"
+     fill="#1f2937"
+     stroke="#4b5563"
+     rx="3"
+     id="rect108" />
+  <text
+     x="916"
+     y="760"
+     font-size="8px"
+     text-anchor="middle"
+     fill="#d1d5db"
+     font-family="monospace"
+     id="text108">KP3</text>
+  <!-- KP4 -->
+  <rect
+     x="1231"
+     y="747"
+     width="50"
+     height="20"
+     fill="#1f2937"
+     stroke="#4b5563"
+     rx="3"
+     id="rect109" />
+  <text
+     x="1256"
+     y="760"
+     font-size="8px"
+     text-anchor="middle"
+     fill="#d1d5db"
+     font-family="monospace"
+     id="text109">KP4</text>
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- CONNECTEURS PDC (Points de charge) -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- PDC1 Connector -->
+  <g
+     id="PDC1-connector"
+     transform="translate(44, -23)">
+    <circle
+       cx="130"
+       cy="880"
+       r="25"
+       fill="#1e293b"
+       stroke="#3b82f6"
+       stroke-width="2"
+       id="circle109" />
+    <circle
+       id="PDC1-led1"
+       cx="120"
+       cy="880"
+       r="6"
+       fill="#22c55e"
+       stroke="#1e293b"
+       stroke-width="1"
+       filter="url(#glowGreen)" />
+    <circle
+       id="PDC1-led2"
+       cx="140"
+       cy="880"
+       r="6"
+       fill="#22c55e"
+       stroke="#1e293b"
+       stroke-width="1"
+       filter="url(#glowGreen)" />
+  </g>
+  <!-- PDC1 Status -->
+  <g
+     id="PDC1"
+     transform="translate(22, -32)">
+    <rect
+       x="10"
+       y="920"
+       width="240"
+       height="40"
+       fill="url(#panelGrad)"
+       stroke="#2563eb"
+       stroke-width="1.5"
+       rx="4"
+       id="rect110" />
+    <text
+       x="25"
+       y="945"
+       font-size="12px"
+       font-weight="600"
+       fill="#60a5fa"
+       font-family="monospace"
+       id="text110">PDC1</text>
+    <rect
+       id="PDC1-color"
+       x="150"
+       y="930"
+       width="85"
+       height="20"
+       fill="#22c55e"
+       stroke="#1e293b"
+       rx="3" />
+    <text
+       x="192"
+       y="944"
+       font-size="9px"
+       text-anchor="middle"
+       fill="#052e16"
+       font-weight="bold"
+       font-family="monospace"
+       id="text111">AVAILABLE</text>
+  </g>
+  <!-- PDC2 Connector -->
+  <g
+     id="PDC2-connector"
+     transform="translate(-16, -23)">
+    <circle
+       cx="442"
+       cy="880"
+       r="25"
+       fill="#1e293b"
+       stroke="#3b82f6"
+       stroke-width="2"
+       id="circle111" />
+    <circle
+       id="PDC2-led1"
+       cx="432"
+       cy="880"
+       r="6"
+       fill="#3b82f6"
+       stroke="#1e293b"
+       stroke-width="1"
+       filter="url(#glowCyan)" />
+    <circle
+       id="PDC2-led2"
+       cx="452"
+       cy="880"
+       r="6"
+       fill="#3b82f6"
+       stroke="#1e293b"
+       stroke-width="1"
+       filter="url(#glowCyan)" />
+  </g>
+  <!-- PDC2 Status -->
+  <g
+     id="PDC2"
+     transform="translate(-16, -31)">
+    <rect
+       x="322"
+       y="920"
+       width="240"
+       height="40"
+       fill="url(#panelGrad)"
+       stroke="#2563eb"
+       stroke-width="1.5"
+       rx="4"
+       id="rect111" />
+    <text
+       x="337"
+       y="945"
+       font-size="12px"
+       font-weight="600"
+       fill="#60a5fa"
+       font-family="monospace"
+       id="text112">PDC2</text>
+    <rect
+       id="PDC2-color"
+       x="462"
+       y="930"
+       width="85"
+       height="20"
+       fill="#3b82f6"
+       stroke="#1e293b"
+       rx="3" />
+    <text
+       x="504"
+       y="944"
+       font-size="9px"
+       text-anchor="middle"
+       fill="#ffffff"
+       font-weight="bold"
+       font-family="monospace"
+       id="text113">CHARGING</text>
+  </g>
+  <!-- PDC3 Connector -->
+  <g
+     id="PDC3-connector"
+     transform="translate(-36, -23)">
+    <circle
+       cx="952"
+       cy="880"
+       r="25"
+       fill="#1e293b"
+       stroke="#3b82f6"
+       stroke-width="2"
+       id="circle113" />
+    <circle
+       id="PDC3-led1"
+       cx="942"
+       cy="880"
+       r="6"
+       fill="#eab308"
+       stroke="#1e293b"
+       stroke-width="1"
+       filter="url(#glowOrange)" />
+    <circle
+       id="PDC3-led2"
+       cx="962"
+       cy="880"
+       r="6"
+       fill="#eab308"
+       stroke="#1e293b"
+       stroke-width="1"
+       filter="url(#glowOrange)" />
+  </g>
+  <!-- PDC3 Status -->
+  <g
+     id="PDC3"
+     transform="translate(-35, -33)">
+    <rect
+       x="832"
+       y="920"
+       width="240"
+       height="40"
+       fill="url(#panelGrad)"
+       stroke="#2563eb"
+       stroke-width="1.5"
+       rx="4"
+       id="rect113" />
+    <text
+       x="847"
+       y="945"
+       font-size="12px"
+       font-weight="600"
+       fill="#60a5fa"
+       font-family="monospace"
+       id="text114">PDC3</text>
+    <rect
+       id="PDC3-color"
+       x="972"
+       y="930"
+       width="85"
+       height="20"
+       fill="#eab308"
+       stroke="#1e293b"
+       rx="3" />
+    <text
+       x="1014"
+       y="944"
+       font-size="9px"
+       text-anchor="middle"
+       fill="#422006"
+       font-weight="bold"
+       font-family="monospace"
+       id="text115">WARNING</text>
+  </g>
+  <!-- PDC4 Connector -->
+  <g
+     id="PDC4-connector"
+     transform="translate(-76, -23)">
+    <circle
+       cx="1332"
+       cy="880"
+       r="25"
+       fill="#1e293b"
+       stroke="#3b82f6"
+       stroke-width="2"
+       id="circle115" />
+    <circle
+       id="PDC4-led1"
+       cx="1322"
+       cy="880"
+       r="6"
+       fill="#ef4444"
+       stroke="#1e293b"
+       stroke-width="1" />
+    <circle
+       id="PDC4-led2"
+       cx="1342"
+       cy="880"
+       r="6"
+       fill="#ef4444"
+       stroke="#1e293b"
+       stroke-width="1" />
+  </g>
+  <!-- PDC4 Status -->
+  <g
+     id="PDC4"
+     transform="translate(-84, -30)">
+    <rect
+       x="1212"
+       y="920"
+       width="240"
+       height="40"
+       fill="url(#panelGrad)"
+       stroke="#2563eb"
+       stroke-width="1.5"
+       rx="4"
+       id="rect115" />
+    <text
+       x="1227"
+       y="945"
+       font-size="12px"
+       font-weight="600"
+       fill="#60a5fa"
+       font-family="monospace"
+       id="text116">PDC4</text>
+    <rect
+       id="PDC4-color"
+       x="1352"
+       y="930"
+       width="85"
+       height="20"
+       fill="#ef4444"
+       stroke="#1e293b"
+       rx="3" />
+    <text
+       x="1394"
+       y="944"
+       font-size="9px"
+       text-anchor="middle"
+       fill="#ffffff"
+       font-weight="bold"
+       font-family="monospace"
+       id="text117">FAULT</text>
+  </g>
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- MODULE DE VENTILATION (style industriel) -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+</svg>

@@ -1,3 +1,6 @@
+import os
+
+OFFLINE_MODE = os.getenv("OFFLINE_MODE", "false").lower() == "true"
 OPCUA_SERVER_URL = "opc.tcp://192.168.10.70:4840"
 
 VARIABLES = {

@@ -7,7 +7,8 @@ from fastapi.responses import HTMLResponse
 import logging
 
 from opcua_client import OPCUAClient
-from config import OPCUA_SERVER_URL
+from offline_provider import OfflineProvider
+from config import OPCUA_SERVER_URL, OFFLINE_MODE
 from routers import sequences, exploitation, communication, system, synoptique
 
 logging.basicConfig(level=logging.INFO)
@@ -18,7 +19,10 @@ opcua_client = None
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     global opcua_client
-    opcua_client = OPCUAClient(OPCUA_SERVER_URL)
+    if OFFLINE_MODE:
+        opcua_client = OfflineProvider(OPCUA_SERVER_URL)
+    else:
+        opcua_client = OPCUAClient(OPCUA_SERVER_URL)
     await opcua_client.connect()
     yield
     await opcua_client.disconnect()

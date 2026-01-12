@@ -1,0 +1,44 @@
+MODE OFFLINE - Instructions
+============================
+
+Le mode offline permet de travailler sans connexion OPC UA.
+
+ACTIVATION:
+-----------
+1. Linux/Mac:
+   export OFFLINE_MODE=true
+   uvicorn main:app --reload
+
+2. Windows:
+   set OFFLINE_MODE=true
+   uvicorn main:app --reload
+
+3. Ligne de commande directe:
+   OFFLINE_MODE=true uvicorn main:app --reload
+
+DESACTIVATION:
+--------------
+1. Linux/Mac:
+   unset OFFLINE_MODE
+   uvicorn main:app --reload
+
+2. Windows:
+   set OFFLINE_MODE=false
+   uvicorn main:app --reload
+
+3. Par defaut (sans variable):
+   uvicorn main:app --reload
+
+FONCTIONNEMENT:
+---------------
+- Données simulées réalistes
+- Valeurs dynamiques (courant, tension, SOC, températures)
+- Lecture/écriture fonctionnelles
+- Aucune connexion réseau requise
+
+FICHIERS AJOUTES:
+-----------------
+- offline_data.py: Données simulées
+- offline_provider.py: Provider offline
+- config.py: Variable OFFLINE_MODE
+- main.py: Sélection automatique du provider

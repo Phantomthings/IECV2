@@ -32,20 +32,21 @@ async function updateData() {
             if (id.startsWith('M') && values.vdc !== undefined) {
                 const vdcEl = svg.getElementById(`${id}-vdc`);
                 if (vdcEl) vdcEl.textContent = values.vdc.toFixed(0);
-                
+
                 const idcEl = svg.getElementById(`${id}-idc`);
                 if (idcEl) idcEl.textContent = values.idc.toFixed(0);
+
+                const border = svg.getElementById(`${id}-border`);
+                if (border && values.module_color) {
+                    border.setAttribute('stroke', values.module_color);
+                }
             }
-            
+
             if (id.startsWith('G') && !id.startsWith('Gl')) {
                 const bgRect = svg.getElementById(`${id}-bg`);
                 if (bgRect && values.bg_color) {
                     bgRect.setAttribute('fill', values.bg_color);
-                }
-                
-                const statusCircle = svg.getElementById(`${id}-status`);
-                if (statusCircle && values.status_color) {
-                    statusCircle.setAttribute('fill', values.status_color);
+                    bgRect.setAttribute('stroke', values.bg_color);
                 }
             }
             
@@ -123,7 +124,17 @@ async function updateData() {
                 if (colorRect) {
                     colorRect.setAttribute('fill', values.color);
                 }
-                
+
+                const connectorCircle = svg.getElementById(`${id}-connector-circle`);
+                if (connectorCircle) {
+                    connectorCircle.setAttribute('stroke', values.color);
+                }
+
+                const statusRect = svg.getElementById(`${id}-status-rect`);
+                if (statusRect) {
+                    statusRect.setAttribute('stroke', values.color);
+                }
+
                 const led1 = svg.getElementById(`${id}-led1`);
                 const led2 = svg.getElementById(`${id}-led2`);
                 if (led1) {

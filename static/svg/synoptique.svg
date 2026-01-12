@@ -102,10 +102,10 @@
     <rect id="G8-bg" x="625" y="30" width="150" height="80" fill="url(#panelGrad)" stroke="#2563eb" stroke-width="1.5" rx="4" filter="url(#panelShadow)"/>
     <rect x="625" y="30" width="150" height="3" fill="#3b82f6" rx="4"/>
     <text x="700" y="48" font-size="11px" text-anchor="middle" font-weight="bold" fill="#60a5fa" font-family="monospace">G8</text>
-    <circle id="G8-status" cx="760" cy="45" r="5" fill="#525252" stroke="#374151" stroke-width="1"/>
-    
+
     <!-- M13 -->
     <g id="M1">
+      <rect id="M1-border" x="628" y="58" width="74" height="34" fill="none" stroke="#334155" stroke-width="2" rx="3"/>
       <rect x="630" y="60" width="70" height="30" fill="#0f172a" stroke="#334155" stroke-width="1" rx="2"/>
       <text x="635" y="72" font-size="7px" fill="#64748b" font-family="monospace">VDC</text>
       <rect x="655" y="62" width="40" height="12" fill="#020617" stroke="#1e293b" stroke-width="0.5" rx="1"/>
@@ -118,6 +118,7 @@
     
     <!-- M14 -->
     <g id="M2">
+      <rect id="M2-border" x="703" y="58" width="74" height="34" fill="none" stroke="#334155" stroke-width="2" rx="3"/>
       <rect x="705" y="60" width="70" height="30" fill="#0f172a" stroke="#334155" stroke-width="1" rx="2"/>
       <text x="710" y="72" font-size="7px" fill="#64748b" font-family="monospace">VDC</text>
       <rect x="730" y="62" width="40" height="12" fill="#020617" stroke="#1e293b" stroke-width="0.5" rx="1"/>
@@ -136,9 +137,9 @@
     <rect id="G1-bg" x="1030" y="240" width="80" height="80" fill="url(#panelGrad)" stroke="#2563eb" stroke-width="1.5" rx="4" filter="url(#panelShadow)"/>
     <rect x="1030" y="240" width="80" height="3" fill="#3b82f6" rx="4"/>
     <text x="1070" y="258" font-size="11px" text-anchor="middle" font-weight="bold" fill="#60a5fa" font-family="monospace">G1</text>
-    <circle id="G1-status" cx="1095" cy="255" r="5" fill="#525252" stroke="#374151" stroke-width="1"/>
-    
+
     <g id="M3">
+      <rect id="M3-border" x="1033" y="268" width="74" height="34" fill="none" stroke="#334155" stroke-width="2" rx="3"/>
       <rect x="1035" y="270" width="70" height="30" fill="#0f172a" stroke="#334155" stroke-width="1" rx="2"/>
       <text x="1040" y="282" font-size="7px" fill="#64748b" font-family="monospace">VDC</text>
       <rect x="1060" y="272" width="40" height="12" fill="#020617" stroke="#1e293b" stroke-width="0.5" rx="1"/>
@@ -159,9 +160,9 @@
     <rect id="G2-bg" x="350" y="240" width="80" height="80" fill="url(#panelGrad)" stroke="#2563eb" stroke-width="1.5" rx="4" filter="url(#panelShadow)"/>
     <rect x="350" y="240" width="80" height="3" fill="#3b82f6" rx="4"/>
     <text x="390" y="258" font-size="11px" text-anchor="middle" font-weight="bold" fill="#60a5fa" font-family="monospace">G2</text>
-    <circle id="G2-status" cx="415" cy="255" r="5" fill="#525252" stroke="#374151" stroke-width="1"/>
-    
+
     <g id="M6">
+      <rect id="M6-border" x="353" y="268" width="74" height="34" fill="none" stroke="#334155" stroke-width="2" rx="3"/>
       <rect x="355" y="270" width="70" height="30" fill="#0f172a" stroke="#334155" stroke-width="1" rx="2"/>
       <text x="360" y="282" font-size="7px" fill="#64748b" font-family="monospace">VDC</text>
       <rect x="380" y="272" width="40" height="12" fill="#020617" stroke="#1e293b" stroke-width="0.5" rx="1"/>
@@ -182,9 +183,9 @@
     <rect id="G3-bg" x="690" y="240" width="80" height="80" fill="url(#panelGrad)" stroke="#2563eb" stroke-width="1.5" rx="4" filter="url(#panelShadow)"/>
     <rect x="690" y="240" width="80" height="3" fill="#3b82f6" rx="4"/>
     <text x="730" y="258" font-size="11px" text-anchor="middle" font-weight="bold" fill="#60a5fa" font-family="monospace">G3</text>
-    <circle id="G3-status" cx="755" cy="255" r="5" fill="#525252" stroke="#374151" stroke-width="1"/>
-    
+
     <g id="M9">
+      <rect id="M9-border" x="693" y="268" width="74" height="34" fill="none" stroke="#334155" stroke-width="2" rx="3"/>
       <rect x="695" y="270" width="70" height="30" fill="#0f172a" stroke="#334155" stroke-width="1" rx="2"/>
       <text x="700" y="282" font-size="7px" fill="#64748b" font-family="monospace">VDC</text>
       <rect x="720" y="272" width="40" height="12" fill="#020617" stroke="#1e293b" stroke-width="0.5" rx="1"/>
@@ -203,9 +204,9 @@
       <rect id="G4-bg" x="690" y="240" width="80" height="80" fill="url(#panelGrad)" stroke="#2563eb" stroke-width="1.5" rx="4" filter="url(#panelShadow)"/>
       <rect x="690" y="240" width="80" height="3" fill="#3b82f6" rx="4"/>
       <text x="730" y="258" font-size="11px" text-anchor="middle" font-weight="bold" fill="#60a5fa" font-family="monospace">G4</text>
-      <circle id="G4-status" cx="755" cy="255" r="5" fill="#525252" stroke="#374151" stroke-width="1"/>
-      
+
       <g id="M12">
+        <rect id="M12-border" x="693" y="268" width="74" height="34" fill="none" stroke="#334155" stroke-width="2" rx="3"/>
         <rect x="695" y="270" width="70" height="30" fill="#0f172a" stroke="#334155" stroke-width="1" rx="2"/>
         <text x="700" y="282" font-size="7px" fill="#64748b" font-family="monospace">VDC</text>
         <rect x="720" y="272" width="40" height="12" fill="#020617" stroke="#1e293b" stroke-width="0.5" rx="1"/>
@@ -226,10 +227,10 @@
     <rect id="G5-bg" x="520" y="240" width="150" height="80" fill="url(#panelGrad)" stroke="#2563eb" stroke-width="1.5" rx="4" filter="url(#panelShadow)"/>
     <rect x="520" y="240" width="150" height="3" fill="#3b82f6" rx="4"/>
     <text x="595" y="258" font-size="11px" text-anchor="middle" font-weight="bold" fill="#60a5fa" font-family="monospace">G5</text>
-    <circle id="G5-status" cx="655" cy="255" r="5" fill="#525252" stroke="#374151" stroke-width="1"/>
-    
+
     <!-- M3 -->
     <g id="M4">
+      <rect id="M4-border" x="523" y="268" width="74" height="34" fill="none" stroke="#334155" stroke-width="2" rx="3"/>
       <rect x="525" y="270" width="70" height="30" fill="#0f172a" stroke="#334155" stroke-width="1" rx="2"/>
       <text x="530" y="282" font-size="7px" fill="#64748b" font-family="monospace">VDC</text>
       <rect x="550" y="272" width="40" height="12" fill="#020617" stroke="#1e293b" stroke-width="0.5" rx="1"/>
@@ -242,6 +243,7 @@
     
     <!-- M4 -->
     <g id="M5">
+      <rect id="M5-border" x="598" y="268" width="74" height="34" fill="none" stroke="#334155" stroke-width="2" rx="3"/>
       <rect x="600" y="270" width="70" height="30" fill="#0f172a" stroke="#334155" stroke-width="1" rx="2"/>
       <text x="605" y="282" font-size="7px" fill="#64748b" font-family="monospace">VDC</text>
       <rect x="625" y="272" width="40" height="12" fill="#020617" stroke="#1e293b" stroke-width="0.5" rx="1"/>
@@ -262,10 +264,10 @@
     <rect id="G6-bg" x="860" y="240" width="150" height="80" fill="url(#panelGrad)" stroke="#2563eb" stroke-width="1.5" rx="4" filter="url(#panelShadow)"/>
     <rect x="860" y="240" width="150" height="3" fill="#3b82f6" rx="4"/>
     <text x="935" y="258" font-size="11px" text-anchor="middle" font-weight="bold" fill="#60a5fa" font-family="monospace">G6</text>
-    <circle id="G6-status" cx="995" cy="255" r="5" fill="#525252" stroke="#374151" stroke-width="1"/>
-    
+
     <!-- M5 -->
     <g id="M7">
+      <rect id="M7-border" x="863" y="268" width="74" height="34" fill="none" stroke="#334155" stroke-width="2" rx="3"/>
       <rect x="865" y="270" width="70" height="30" fill="#0f172a" stroke="#334155" stroke-width="1" rx="2"/>
       <text x="870" y="282" font-size="7px" fill="#64748b" font-family="monospace">VDC</text>
       <rect x="890" y="272" width="40" height="12" fill="#020617" stroke="#1e293b" stroke-width="0.5" rx="1"/>
@@ -278,6 +280,7 @@
     
     <!-- M6 -->
     <g id="M8">
+      <rect id="M8-border" x="938" y="268" width="74" height="34" fill="none" stroke="#334155" stroke-width="2" rx="3"/>
       <rect x="940" y="270" width="70" height="30" fill="#0f172a" stroke="#334155" stroke-width="1" rx="2"/>
       <text x="945" y="282" font-size="7px" fill="#64748b" font-family="monospace">VDC</text>
       <rect x="965" y="272" width="40" height="12" fill="#020617" stroke="#1e293b" stroke-width="0.5" rx="1"/>
@@ -298,10 +301,10 @@
     <rect id="G7-bg" x="180" y="240" width="150" height="80" fill="url(#panelGrad)" stroke="#2563eb" stroke-width="1.5" rx="4" filter="url(#panelShadow)"/>
     <rect x="180" y="240" width="150" height="3" fill="#3b82f6" rx="4"/>
     <text x="255" y="258" font-size="11px" text-anchor="middle" font-weight="bold" fill="#60a5fa" font-family="monospace">G7</text>
-    <circle id="G7-status" cx="315" cy="255" r="5" fill="#525252" stroke="#374151" stroke-width="1"/>
-    
+
     <!-- M1 -->
     <g id="M10">
+      <rect id="M10-border" x="183" y="268" width="74" height="34" fill="none" stroke="#334155" stroke-width="2" rx="3"/>
       <rect x="185" y="270" width="70" height="30" fill="#0f172a" stroke="#334155" stroke-width="1" rx="2"/>
       <text x="190" y="282" font-size="7px" fill="#64748b" font-family="monospace">VDC</text>
       <rect x="210" y="272" width="40" height="12" fill="#020617" stroke="#1e293b" stroke-width="0.5" rx="1"/>
@@ -314,6 +317,7 @@
     
     <!-- M2 -->
     <g id="M11">
+      <rect id="M11-border" x="258" y="268" width="74" height="34" fill="none" stroke="#334155" stroke-width="2" rx="3"/>
       <rect x="260" y="270" width="70" height="30" fill="#0f172a" stroke="#334155" stroke-width="1" rx="2"/>
       <text x="265" y="282" font-size="7px" fill="#64748b" font-family="monospace">VDC</text>
       <rect x="285" y="272" width="40" height="12" fill="#020617" stroke="#1e293b" stroke-width="0.5" rx="1"/>
@@ -448,9 +452,9 @@
     <rect id="G9-bg" x="180" y="620" width="80" height="80" fill="url(#panelGrad)" stroke="#2563eb" stroke-width="1.5" rx="4" filter="url(#panelShadow)"/>
     <rect x="180" y="620" width="80" height="3" fill="#3b82f6" rx="4"/>
     <text x="220" y="638" font-size="11px" text-anchor="middle" font-weight="bold" fill="#60a5fa" font-family="monospace">G9</text>
-    <circle id="G9-status" cx="245" cy="635" r="5" fill="#525252" stroke="#374151" stroke-width="1"/>
-    
+
     <g id="M13">
+      <rect id="M13-border" x="183" y="648" width="74" height="34" fill="none" stroke="#334155" stroke-width="2" rx="3"/>
       <rect x="185" y="650" width="70" height="30" fill="#0f172a" stroke="#334155" stroke-width="1" rx="2"/>
       <text x="190" y="662" font-size="7px" fill="#64748b" font-family="monospace">VDC</text>
       <rect x="210" y="652" width="40" height="12" fill="#020617" stroke="#1e293b" stroke-width="0.5" rx="1"/>
@@ -495,9 +499,9 @@
       <rect id="G10-bg" x="1042" y="620" width="80" height="80" fill="url(#panelGrad)" stroke="#2563eb" stroke-width="1.5" rx="4" filter="url(#panelShadow)"/>
       <rect x="1042" y="620" width="80" height="3" fill="#3b82f6" rx="4"/>
       <text x="1082" y="638" font-size="11px" text-anchor="middle" font-weight="bold" fill="#60a5fa" font-family="monospace">G10</text>
-      <circle id="G10-status" cx="1107" cy="635" r="5" fill="#525252" stroke="#374151" stroke-width="1"/>
-      
+
       <g id="M14">
+        <rect id="M14-border" x="1046" y="648" width="74" height="34" fill="none" stroke="#334155" stroke-width="2" rx="3"/>
         <rect x="1048" y="650" width="70" height="30" fill="#0f172a" stroke="#334155" stroke-width="1" rx="2"/>
         <text x="1053" y="662" font-size="7px" fill="#64748b" font-family="monospace">VDC</text>
         <rect x="1073" y="652" width="40" height="12" fill="#020617" stroke="#1e293b" stroke-width="0.5" rx="1"/>
@@ -630,14 +634,14 @@
   
   <!-- PDC1 Connector -->
   <g id="PDC1-connector" transform="translate(44, -23)">
-    <circle cx="130" cy="880" r="25" fill="#1e293b" stroke="#3b82f6" stroke-width="2"/>
+    <circle id="PDC1-connector-circle" cx="130" cy="880" r="25" fill="#1e293b" stroke="#3b82f6" stroke-width="3"/>
     <circle id="PDC1-led1" cx="120" cy="880" r="6" fill="#22c55e" stroke="#1e293b" stroke-width="1" filter="url(#glowGreen)"/>
     <circle id="PDC1-led2" cx="140" cy="880" r="6" fill="#22c55e" stroke="#1e293b" stroke-width="1" filter="url(#glowGreen)"/>
   </g>
   
   <!-- PDC1 Status -->
   <g id="PDC1" transform="translate(22, -32)">
-    <rect x="10" y="920" width="240" height="40" fill="url(#panelGrad)" stroke="#2563eb" stroke-width="1.5" rx="4"/>
+    <rect id="PDC1-status-rect" x="10" y="920" width="240" height="40" fill="url(#panelGrad)" stroke="#2563eb" stroke-width="2" rx="4"/>
     <text x="25" y="945" font-size="12px" font-weight="600" fill="#60a5fa" font-family="monospace">PDC1</text>
     <rect id="PDC1-color" x="150" y="930" width="85" height="20" fill="#22c55e" stroke="#1e293b" rx="3"/>
     <text x="192" y="944" font-size="9px" text-anchor="middle" fill="#052e16" font-weight="bold" font-family="monospace">AVAILABLE</text>
@@ -645,14 +649,14 @@
   
   <!-- PDC2 Connector -->
   <g id="PDC2-connector" transform="translate(-16, -23)">
-    <circle cx="442" cy="880" r="25" fill="#1e293b" stroke="#3b82f6" stroke-width="2"/>
+    <circle id="PDC2-connector-circle" cx="442" cy="880" r="25" fill="#1e293b" stroke="#3b82f6" stroke-width="3"/>
     <circle id="PDC2-led1" cx="432" cy="880" r="6" fill="#3b82f6" stroke="#1e293b" stroke-width="1" filter="url(#glowCyan)"/>
     <circle id="PDC2-led2" cx="452" cy="880" r="6" fill="#3b82f6" stroke="#1e293b" stroke-width="1" filter="url(#glowCyan)"/>
   </g>
   
   <!-- PDC2 Status -->
   <g id="PDC2" transform="translate(-16, -31)">
-    <rect x="322" y="920" width="240" height="40" fill="url(#panelGrad)" stroke="#2563eb" stroke-width="1.5" rx="4"/>
+    <rect id="PDC2-status-rect" x="322" y="920" width="240" height="40" fill="url(#panelGrad)" stroke="#2563eb" stroke-width="2" rx="4"/>
     <text x="337" y="945" font-size="12px" font-weight="600" fill="#60a5fa" font-family="monospace">PDC2</text>
     <rect id="PDC2-color" x="462" y="930" width="85" height="20" fill="#3b82f6" stroke="#1e293b" rx="3"/>
     <text x="504" y="944" font-size="9px" text-anchor="middle" fill="#ffffff" font-weight="bold" font-family="monospace">CHARGING</text>
@@ -660,14 +664,14 @@
   
   <!-- PDC3 Connector -->
   <g id="PDC3-connector" transform="translate(-36, -23)">
-    <circle cx="952" cy="880" r="25" fill="#1e293b" stroke="#3b82f6" stroke-width="2"/>
+    <circle id="PDC3-connector-circle" cx="952" cy="880" r="25" fill="#1e293b" stroke="#3b82f6" stroke-width="3"/>
     <circle id="PDC3-led1" cx="942" cy="880" r="6" fill="#eab308" stroke="#1e293b" stroke-width="1" filter="url(#glowOrange)"/>
     <circle id="PDC3-led2" cx="962" cy="880" r="6" fill="#eab308" stroke="#1e293b" stroke-width="1" filter="url(#glowOrange)"/>
   </g>
   
   <!-- PDC3 Status -->
   <g id="PDC3" transform="translate(-35, -33)">
-    <rect x="832" y="920" width="240" height="40" fill="url(#panelGrad)" stroke="#2563eb" stroke-width="1.5" rx="4"/>
+    <rect id="PDC3-status-rect" x="832" y="920" width="240" height="40" fill="url(#panelGrad)" stroke="#2563eb" stroke-width="2" rx="4"/>
     <text x="847" y="945" font-size="12px" font-weight="600" fill="#60a5fa" font-family="monospace">PDC3</text>
     <rect id="PDC3-color" x="972" y="930" width="85" height="20" fill="#eab308" stroke="#1e293b" rx="3"/>
     <text x="1014" y="944" font-size="9px" text-anchor="middle" fill="#422006" font-weight="bold" font-family="monospace">WARNING</text>
@@ -675,14 +679,14 @@
   
   <!-- PDC4 Connector -->
   <g id="PDC4-connector" transform="translate(-76, -23)">
-    <circle cx="1332" cy="880" r="25" fill="#1e293b" stroke="#3b82f6" stroke-width="2"/>
+    <circle id="PDC4-connector-circle" cx="1332" cy="880" r="25" fill="#1e293b" stroke="#3b82f6" stroke-width="3"/>
     <circle id="PDC4-led1" cx="1322" cy="880" r="6" fill="#ef4444" stroke="#1e293b" stroke-width="1"/>
     <circle id="PDC4-led2" cx="1342" cy="880" r="6" fill="#ef4444" stroke="#1e293b" stroke-width="1"/>
   </g>
   
   <!-- PDC4 Status -->
   <g id="PDC4" transform="translate(-84, -30)">
-    <rect x="1212" y="920" width="240" height="40" fill="url(#panelGrad)" stroke="#2563eb" stroke-width="1.5" rx="4"/>
+    <rect id="PDC4-status-rect" x="1212" y="920" width="240" height="40" fill="url(#panelGrad)" stroke="#2563eb" stroke-width="2" rx="4"/>
     <text x="1227" y="945" font-size="12px" font-weight="600" fill="#60a5fa" font-family="monospace">PDC4</text>
     <rect id="PDC4-color" x="1352" y="930" width="85" height="20" fill="#ef4444" stroke="#1e293b" rx="3"/>
     <text x="1394" y="944" font-size="9px" text-anchor="middle" fill="#ffffff" font-weight="bold" font-family="monospace">FAULT</text>
